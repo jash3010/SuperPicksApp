@@ -26,7 +26,7 @@ class ViewController: UIViewController {
     }
     @IBAction func playForFreeBTN(_ sender: Any) {
         let vc = self.storyboard?.instantiateViewController(withIdentifier: "HomeVC") as! HomeVC
-        vc.isBet = false
+        vc.isBet = true
         self.navigationController?.pushViewController(vc, animated: true)
     }
 }

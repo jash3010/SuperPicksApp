@@ -295,9 +295,11 @@
                 <outlet property="dateTimeLBL" destination="wfW-Tl-dzA" id="x1W-po-OhJ"/>
                 <outlet property="firstTeamIMGview" destination="dYS-Iz-Y0s" id="LQe-uE-EN4"/>
                 <outlet property="firstTeamName" destination="Yv1-Lp-aeV" id="ngz-0T-Nid"/>
+                <outlet property="firstTeamRank" destination="mzD-Zg-85V" id="QfB-jF-VCm"/>
                 <outlet property="leageTitleLBL" destination="f2C-qc-AXq" id="ohi-nU-As9"/>
                 <outlet property="secondTeamImgView" destination="KLb-eY-rNS" id="55E-I9-Fgl"/>
                 <outlet property="secondTeamName" destination="y6O-tG-uLD" id="EM7-xs-9Vo"/>
+                <outlet property="secondTeamRank" destination="HVl-r0-zVh" id="491-Q4-9Ux"/>
             </connections>
             <point key="canvasLocation" x="172.46376811594203" y="153.34821428571428"/>
         </tableViewCell>

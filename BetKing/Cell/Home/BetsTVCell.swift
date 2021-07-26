@@ -11,6 +11,15 @@ class BetsTVCell: UITableViewCell {
 
     @IBOutlet weak var backView: UIView!
     
+//    @IBOutlet weak var backView: UIView!
+    //@IBOutlet weak var leageTitleLBL: UILabel!
+   // @IBOutlet weak var dateTimeLBL: UILabel!
+    @IBOutlet weak var firstTeamIMGview: UIImageView!
+    @IBOutlet weak var secondTeamImgView: UIImageView!
+    @IBOutlet weak var firstTeamName: UILabel!
+    @IBOutlet weak var secondTeamName: UILabel!
+    @IBOutlet weak var firstTeamRank: UILabel!
+    @IBOutlet weak var secondTeamRank: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

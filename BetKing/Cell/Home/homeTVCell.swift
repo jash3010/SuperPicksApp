@@ -16,6 +16,8 @@ class homeTVCell: UITableViewCell {
     @IBOutlet weak var secondTeamImgView: UIImageView!
     @IBOutlet weak var firstTeamName: UILabel!
     @IBOutlet weak var secondTeamName: UILabel!
+    @IBOutlet weak var firstTeamRank: UILabel!
+    @IBOutlet weak var secondTeamRank: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

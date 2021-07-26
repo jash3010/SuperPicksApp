@@ -16,6 +16,8 @@
 		046C18CA26AA8C4300A88A20 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046C18C926AA8C4300A88A20 /* WebService.swift */; };
 		046C18D226AA8CFF00A88A20 /* Indicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046C18D126AA8CFF00A88A20 /* Indicator.swift */; };
 		046C18DD26AA8DCF00A88A20 /* Api+Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046C18DC26AA8DCF00A88A20 /* Api+Constants.swift */; };
+		049013F326AEB610004DDBC6 /* PopUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049013F226AEB610004DDBC6 /* PopUpVC.swift */; };
+		049013F926AEB9B7004DDBC6 /* PopupTBLCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049013F826AEB9B7004DDBC6 /* PopupTBLCell.swift */; };
 		04FB30DD269C3FB7000A9563 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FB30DC269C3FB7000A9563 /* AppDelegate.swift */; };
 		04FB30E1269C3FB7000A9563 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FB30E0269C3FB7000A9563 /* ViewController.swift */; };
 		04FB30E4269C3FB7000A9563 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FB30E2269C3FB7000A9563 /* Main.storyboard */; };
@@ -54,6 +56,8 @@
 		046C18C926AA8C4300A88A20 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 		046C18D126AA8CFF00A88A20 /* Indicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Indicator.swift; sourceTree = "<group>"; };
 		046C18DC26AA8DCF00A88A20 /* Api+Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Api+Constants.swift"; sourceTree = "<group>"; };
+		049013F226AEB610004DDBC6 /* PopUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpVC.swift; sourceTree = "<group>"; };
+		049013F826AEB9B7004DDBC6 /* PopupTBLCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupTBLCell.swift; sourceTree = "<group>"; };
 		04FB30D9269C3FB7000A9563 /* BetKing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetKing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04FB30DC269C3FB7000A9563 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04FB30E0269C3FB7000A9563 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -115,6 +119,7 @@
 		0429D34C26A936F600D22F1C /* Cell */ = {
 			isa = PBXGroup;
 			children = (
+				049013F726AEB99D004DDBC6 /* PopupCell */,
 				0459380326A94A3E005C72FB /* Home */,
 			);
 			path = Cell;
@@ -132,6 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				0429D34F26A9372A00D22F1C /* HomeVC.swift */,
+				049013F226AEB610004DDBC6 /* PopUpVC.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -171,6 +177,14 @@
 				046C18DC26AA8DCF00A88A20 /* Api+Constants.swift */,
 			);
 			path = "API Class";
+			sourceTree = "<group>";
+		};
+		049013F726AEB99D004DDBC6 /* PopupCell */ = {
+			isa = PBXGroup;
+			children = (
+				049013F826AEB9B7004DDBC6 /* PopupTBLCell.swift */,
+			);
+			path = PopupCell;
 			sourceTree = "<group>";
 		};
 		04FB30D0269C3FB7000A9563 = {
@@ -479,6 +493,8 @@
 				046C18CA26AA8C4300A88A20 /* WebService.swift in Sources */,
 				044AB4C626A97FE400B136FB /* BetsTVCell.swift in Sources */,
 				0429D35026A9372A00D22F1C /* HomeVC.swift in Sources */,
+				049013F326AEB610004DDBC6 /* PopUpVC.swift in Sources */,
+				049013F926AEB9B7004DDBC6 /* PopupTBLCell.swift in Sources */,
 				04FB30E1269C3FB7000A9563 /* ViewController.swift in Sources */,
 				0459380626A94B4F005C72FB /* homeTVCell.swift in Sources */,
 				046C18D226AA8CFF00A88A20 /* Indicator.swift in Sources */,

@@ -23,7 +23,7 @@ class PlayModel: Codable {
     }
 
     init(payload: Payload?, errorCode: Int?, errorTimeStamp: String?, errorMessage: String?, hasError: Bool?) {
-        self.payload = payload
+        self.payload = payload                  
         self.errorCode = errorCode
         self.errorTimeStamp = errorTimeStamp
         self.errorMessage = errorMessage
